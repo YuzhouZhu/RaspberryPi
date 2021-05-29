@@ -1,0 +1,12 @@
+#~ Yuzhou Zhu 800681479
+
+f = open("my_file.txt")
+lines = f.readlines()
+f.close
+
+f = open("my_file.txt")
+word = f.read()
+words = word.split()
+f.close
+
+print('the number of line is ', len(lines),';the number of word is ',len(words))
